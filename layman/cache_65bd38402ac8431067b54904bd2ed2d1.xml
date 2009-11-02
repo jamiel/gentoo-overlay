@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Header: /var/cvsroot/gentoo/xml/htdocs/proj/en/overlays/layman-global.txt,v 1.392 2009/10/28 21:09:14 robbat2 Exp $ -->
+<layman>
+  <overlay contact="geekounet@poildetroll.net" name="akoya" src="https://hg.poildetroll.net/hg/gentoo/overlay" status="unofficial" type="mercurial">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>https://trac.poildetroll.net/trac/akoya</link>
+    <description>Akoya overlay</description>
+  </overlay>
+  <overlay contact="alexxy@gentoo.org" name="alexxy" src="git://git.overlays.gentoo.org/dev/alexxy.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.overlays.gentoo.org/gitweb/?p=dev/alexxy.git</link>
+    <description>Some random work in progress stuff from alexxy</description>
+  </overlay>
+  <overlay contact="anarchy@gentoo.org" name="anarchy" src="git://git.overlays.gentoo.org/dev/anarchy" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.overlays.gentoo.org/gitweb/?p=dev/anarchy.git;a=summary</link>
+    <description>Testing/Bug fixes, new ebuilds</description>
+  </overlay>
+  <overlay contact="non7top@gmail.com" name="arcon" src="https://arcon.googlecode.com/hg/" status="unofficial" type="mercurial">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://code.google.com/p/arcon/</link>
+    <description>Arcon Overlay!</description>
+  </overlay>
+  <overlay contact="luke_armagetron@dashjr.org" name="armagetron" src="https://armagetronad.svn.sourceforge.net/svnroot/armagetronad/armagetronad/trunk/build/gentoo/overlay" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://armagetronad.net</link>
+    <description>3D light cycles, like the movie TRON</description>
+  </overlay>
+  <overlay contact="aross@gentoo.org" name="aross" src="svn://overlays.gentoo.org/dev/aross" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/dev/aross</link>
+    <description>Personal scratch space.</description>
+  </overlay>
+  <overlay contact="bangert@gentoo.org" name="bangert" src="svn://overlays.gentoo.org/dev/bangert/ebuilds" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org</link>
+    <description>Some ebuilds not yet ready for mainstream portage from Thilo
+    Bangert [bangert@gentoo.org].</description>
+  </overlay>
+  <overlay contact="malept@malept.com" name="bazaar" src="lp:bzr-gentoo-overlay" status="unofficial" type="bzr">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>https://launchpad.net/bzr-gentoo-overlay/</link>
+    <description>A collection of Bazaar-related ebuilds, including release
+    candidates of Bazaar.</description>
+  </overlay>
+  <overlay contact="yngwin@gmail.com" name="berkano" src="http://svn.liveforge.org/berkano/trunk" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://svn.liveforge.org/berkano/trunk</link>
+    <description>Berkano overlay provides an overlay for Gentoo Linux with
+    ebuilds of bleeding edge software (such as live subversion builds) and
+    other handy tools that are missing from the official portage tree. Areas of
+    interest include multimedia and system administration.</description>
+  </overlay>
+  <overlay contact="betelgeuse@gentoo.org" name="betelgeuse" src="svn://overlays.gentoo.org/dev/betelgeuse" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>https://overlays.gentoo.org/dev/betelgeuse</link>
+    <description>Betelgeuse's developer overlay</description>
+  </overlay>
+  <overlay contact="support@calculate.ru" name="calculate" src="git://git.calculate.ru/dev/overlay.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://calculate-linux.org</link>
+    <description>Calculate Overlay</description>
+  </overlay>
+  <overlay contact="lu_zero@gentoo.org" name="cell" src="svn://overlays.gentoo.org/proj/cell" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/cell</link>
+    <description>Support for Cell architecture, including IBM blade and Sony
+    Playstation 3</description>
+  </overlay>
+  <overlay contact="chtekk@gentoo.org" name="chtekk-apps" src="svn://overlays.gentoo.org/dev/chtekk/apps" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/dev/chtekk</link>
+    <description>Overlay for various applications I use myself and plan on
+    adding to the tree or update/fix.</description>
+  </overlay>
+  <overlay contact="chtekk@gentoo.org" name="chtekk-syscp" src="svn://overlays.gentoo.org/dev/chtekk/syscp" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/dev/chtekk</link>
+    <description>Development overlay for a SysCP (syscp.org) ebuild and Gentoo
+    port, as well as additional patches/features.</description>
+  </overlay>
+  <overlay contact="johnrdoe63@cregion.ru" name="crg" src="rsync://rsync.cregion.ru/crg-overlay" status="unofficial" type="rsync">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://wiki.cregion.ru/moin.cgi/CRG_Overlay</link>
+    <description>CRG-Overlay for Gentoo Linux</description>
+  </overlay>
+  <overlay contact="alvaro.castro.castilla@gmail.com" name="d" src="http://subversion.assembla.com/svn/d-overlay" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://code.assembla.com/d-overlay/subversion/nodes</link>
+    <description>A collection of ebuilds related to the D programming
+    language.</description>
+  </overlay>
+  <overlay contact="dagger@gentoo.org" name="dagger" src="git://git.overlays.gentoo.org/dev/dagger" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>
+    http://git.overlays.gentoo.org/gitweb/?p=dev/dagger.git;a=summary</link>
+    <description>Dagger developer overlay</description>
+  </overlay>
+  <overlay contact="dberkholz@gentoo.org" name="dberkholz" src="git://git.overlays.gentoo.org/dev/dberkholz" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://dev.gentoo.org/~dberkholz/overlay/</link>
+    <description>Donnie Berkholz's private developer overlay</description>
+  </overlay>
+  <overlay contact="deathwing00@gentoo.org" name="deathwing00" src="svn://overlays.gentoo.org/dev/deathwing00" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org</link>
+    <description>Experimental ebuilds from the private overlay of Ioannis
+    Aslanidis [deathwing00@gentoo.org].</description>
+  </overlay>
+  <overlay contact="dertobi123@gentoo.org" name="dertobi123" src="svn://overlays.gentoo.org/dev/dertobi123" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org</link>
+    <description>Some ebuilds not yet ready for mainstream portage from Tobias
+    Scherbaum [dertobi123@gentoo.org].</description>
+  </overlay>
+  <overlay contact="desktop-effects@gentoo.org" name="desktop-effects" src="git://git.overlays.gentoo.org/proj/desktop-effects.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <description>Experimental overlay for desktop effects
+    packages.</description>
+  </overlay>
+  <overlay contact="dev-zero@gentoo.org" name="dev-zero" src="git://git.overlays.gentoo.org/dev/dev-zero" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://dev.gentoo.org/~dev-zero/</link>
+    <description>Dev-zeros personal developer overlay</description>
+  </overlay>
+  <overlay contact="nico@core.ws" name="devnull" src="http://hg.core.ws/devnull" status="unofficial" type="mercurial">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://devnull.core.ws/EbuildRepository/</link>
+    <description>Various ebuilds, most of them are bleeding edge scm versions,
+    the others have not found their way into portage yet.</description>
+  </overlay>
+  <overlay contact="dirtyepic@gentoo.org" name="dirtyepic" src="svn://overlays.gentoo.org/dev/dirtyepic" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/dev/dirtyepic</link>
+    <description>Various work-in-progress stuff including GCC-svn and
+    wxGTK.</description>
+  </overlay>
+  <overlay contact="dotnet@gentoo.org" name="dotnet" src="git://git.overlays.gentoo.org/proj/dotnet.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <description>Experimental overlay for .NET packages.</description>
+  </overlay>
+  <overlay contact="andrea@dottout.com" name="dottout" src="git://repo.or.cz/dottout.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://repo.or.cz/w/dottout.git</link>
+    <description>Dottout overlay</description>
+  </overlay>
+  <overlay contact="drizzt@gentoo.org" name="drizzt-overlay" src="svn://overlays.gentoo.org/dev/drizzt/" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://drizzt.bsdnet.eu/</link>
+    <description>drizzt's private developer overlay</description>
+  </overlay>
+  <overlay contact="wolf31o2@wolf31o2.org" name="efika" src="svn://overlays.gentoo.org/proj/efika" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <description>Temporary overlay for adding support for the EFIKA platform to
+    Gentoo.</description>
+  </overlay>
+  <overlay contact="emacs@gentoo.org" name="emacs" src="svn://overlays.gentoo.org/proj/emacs/emacs-overlay" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/emacs/</link>
+    <description>Provide Emacs related ebuilds which are a bit experimental or
+    work-in-progress. Don't rely on them, but don't hesitate to file bugs or
+    write emails.</description>
+  </overlay>
+  <overlay contact="enlightenment@gentoo.org" name="enlightenment" src="svn://overlays.gentoo.org/dev/vapier/enlightenment" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/dev/vapier/wiki/enlightenment</link>
+    <description>Support for the Enlightenment project, most notably
+    DR17/e17.</description>
+  </overlay>
+  <overlay contact="falco@gentoo.org" name="falco" src="git://git.overlays.gentoo.org/dev/falco" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://dev.gentoo.org/~falco/</link>
+    <description>Falco's random stuff about netmon, net-mail or security,
+    unofficial ebuilds like proxsmtp, unofficial patches on Postfix; also
+    pre-stable security upgrades, perhaps merged in the Security Overlay
+    Project some day.</description>
+  </overlay>
+  <overlay contact="flammie@gentoo.org" name="finnish" src="svn://overlays.gentoo.org/proj/finnish/trunk" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/finnish</link>
+    <description>Finnish overlay for spell checking etc. etc.</description>
+  </overlay>
+  <overlay contact="flameeyes@gmail.com" name="flameeyes-overlay" src="git://git.overlays.gentoo.org/dev/flameeyes.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://blog.flameeyes.eu/</link>
+    <description>Flameeyes' private developer overlay</description>
+  </overlay>
+  <overlay contact="dischi@freevo.org" name="freevo" src="svn://svn.freevo.org/freevo/portage/" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://www.freevo.org</link>
+    <description>The Freevo overlay provides ebuils for development snapshots
+    of the unreleased Freevo 2.0 and its dependencies.</description>
+  </overlay>
+  <overlay contact="scarabeus@gentoo.org" name="gamerlay" src="git://git.overlays.gentoo.org/proj/gamerlay.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.overlays.gentoo.org/gitweb/?p=proj/gamerlay.git</link>
+    <description>
+		Gamers overlay for all various games. Not related with games team.
+ 	</description>
+  </overlay>
+  <overlay contact="games@gentoo.org" name="games" src="svn://overlays.gentoo.org/proj/games" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://games.gentoo.org/</link>
+    <description>A collection of work-in-progress ebuilds and ebuilds which
+    require testing.</description>
+  </overlay>
+  <overlay contact="gcc-porting@gentoo.org" name="gcc-porting" src="svn://overlays.gentoo.org/proj/gcc-porting" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/gcc-porting/</link>
+    <description>Compatibility patches for upcoming GCC releases.</description>
+  </overlay>
+  <overlay contact="genstef@gentoo.org" name="genstef" src="svn://overlays.gentoo.org/dev/genstef" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/dev/genstef</link>
+    <description>Genstef's Overlay - It usually contains some experimental
+    ebuilds on their way to the tree</description>
+  </overlay>
+  <overlay contact="powderluv@powderluv.org" name="gentoo-arm" src="git://gitorious.org/gentoo-arm-overlay/gentoo-arm-overlay.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://gentooarm.powderluv.org/</link>
+    <description>Gentoo ARM Overlay</description>
+  </overlay>
+  <overlay contact="welp@gentoo.org" name="gentoo-bsd" src="git://git.overlays.gentoo.org/proj/gentoo-bsd.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.overlays.gentoo.org/gitweb/?p=proj/gentoo-bsd.git</link>
+    <description>Gentoo/BSD Project Overlay</description>
+  </overlay>
+  <overlay contact="r0bertz@gentoo.org" name="gentoo-china" src="http://gentoo-china-overlay.googlecode.com/svn/trunk/" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://code.google.com/p/gentoo-china-overlay</link>
+    <description>Purpose To provide some programs useful to Chinese
+    users.</description>
+  </overlay>
+  <overlay contact="laurent@gentoo-quebec.org" name="gentoo-quebec" src="https://gentoo-quebec.org/svn/gentoo-quebec/trunk/overlay/" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://www.gentoo-quebec.org</link>
+    <description>New ebuilds created by the Gentoo-Quebec team.</description>
+  </overlay>
+  <overlay contact="scsichen@gmail.com" name="gentoo-taiwan" src="http://gentoo-taiwan.googlecode.com/svn/trunk/" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://gentoo-taiwan.googlecode.com/</link>
+    <description>A collection of ebuilds from Gentoo Taiwan.</description>
+  </overlay>
+  <overlay contact="jp-admins@gentoo.gr.jp" name="gentoojp" src="git://git.gentoo.gr.jp/ebuilds/gentoojp.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://ebuild.gentoo.gr.jp/</link>
+    <description>GentooJP provides custom ebuilds for Japanese Gentoo
+    users.</description>
+  </overlay>
+  <overlay contact="gnash@biterror.net" name="gnash-cvs" src="rsync://overlays.biterror.net/gnash-cvs" status="unofficial" type="rsync">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://www.thepetersclan.net</link>
+    <description>This is a Gnash ( flash player ) cvs and snapshot
+    overlay.</description>
+  </overlay>
+  <overlay contact="gnome@gentoo.org" name="gnome" src="git://git.overlays.gentoo.org/proj/gnome.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.overlays.gentoo.org/gitweb/?p=proj/gnome.git;a=summary</link>
+    <description>experimental gnome ebuilds</description>
+  </overlay>
+  <overlay contact="ramereth@gentoo.org" name="gnr" src="git://github.com/ramereth/gnr-overlay.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://github.com/ramereth/gnr-overlay/tree/master</link>
+    <description>Gentoo Netbook Remix (GNR)</description>
+  </overlay>
+  <overlay contact="gnustep@gentoo.org" name="gnustep" src="svn://overlays.gentoo.org/proj/gnustep/overlay" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/gnustep</link>
+    <description>Experimental ebuilds for GNUstep packages in Gentoo. Comments
+    and bugreports are welcome!</description>
+  </overlay>
+  <overlay contact="gpe@gentoo.org" name="gpe" src="git://git.overlays.gentoo.org/proj/gpe.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.overlays.gentoo.org/gitweb/?p=proj/gpe.git;a=summary</link>
+    <description>experimental gpe ebuilds</description>
+  </overlay>
+  <overlay contact="graaff@gentoo.org" name="graaff" src="http://moving-innovations.com/overlay" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://moving-innovations.com/blog/</link>
+    <description>Developer overlay of Hans de Graaff with mostly ruby and
+    xemacs ebuilds, and a few assorted other goodies.</description>
+  </overlay>
+  <overlay contact="halcy0n@gentoo.org" name="halcy0n" src="git://git.overlays.gentoo.org/dev/halcy0n.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>
+    http://git.overlays.gentoo.org/gitweb/?p=dev/halcy0n.git;a=summary</link>
+    <description>Various packages, probably some toolchain stuff
+    though</description>
+  </overlay>
+  <overlay contact="hanno@gentoo.org" name="hanno" src="https://svn.hboeck.de/overlay/" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://www.hboeck.de</link>
+    <description>Hanno Boeck developer overlay.</description>
+  </overlay>
+  <overlay contact="hardened@gentoo.org" name="hardened-development" src="git://git.overlays.gentoo.org/proj/hardened-dev.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.overlays.gentoo.org/gitweb/?p=proj/hardened-dev.git;a=summary</link>
+    <description>Development Overlay for Hardened Gcc 4.x Toolchain</description>
+  </overlay>
+  <overlay contact="haskell@gentoo.org" name="haskell" src="http://code.haskell.org/gentoo/gentoo-haskell/" status="official" type="darcs">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://www.haskell.org/~gentoo/gentoo-haskell/</link>
+    <description>The Official Gentoo Haskell overlay.</description>
+  </overlay>
+  <overlay contact="hawking@gentoo.org" name="hawking" src="git://git.overlays.gentoo.org/dev/hawking" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://dev.gentoo.org/~hawking/</link>
+    <description>hawking's random ebuilds.</description>
+  </overlay>
+  <overlay contact="hollow@gentoo.org" name="hollow" src="git://git.xnull.de/overlay.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.xnull.de/gitweb/?p=overlay.git</link>
+    <description>A collection of work-in-progress ebuilds and other fun broken
+    things.</description>
+  </overlay>
+  <overlay contact="hwoarang@gentoo.org" name="hwoarang" src="git://git.overlays.gentoo.org/dev/hwoarang" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://dev.gentoo.org/~hwoarang/</link>
+    <description>hwoarangs' testing ebuilds</description>
+  </overlay>
+  <overlay contact="ibormuth@efil.de" name="ibormuth" src="git://repo.or.cz/gentoo-overlay-ibormuth.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://repo.or.cz/w/gentoo-overlay-ibormuth.git</link>
+    <description>Personal Overlay of Ingo Bormuth</description>
+  </overlay>
+  <overlay contact="ikelos@gentoo.org" name="ikelos" src="git://git.overlays.gentoo.org/dev/ikelos.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>
+    http://git.overlays.gentoo.org/gitweb/?p=dev/ikelos.git;a=summary</link>
+    <description>Ikelos's hospice for broken and damaged ebuilds.</description>
+  </overlay>
+  <overlay contact="qupada@initng.org" name="initng" src="https://svn.initng.org/portage/gentoo" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://www.initng.org</link>
+    <description>Initng is a full replacement of the old and in many ways
+    deprecated sysvinit tool. It is designed with speed in mind because it does
+    as much as possible asynchronously. In other words: It will boot your
+    unix-system much faster, and give you more control and statistics over your
+    system.</description>
+  </overlay>
+  <overlay contact="levertond@googlemail.com" name="interactive-fiction" src="git://repo.or.cz/gentoo-interactive-fiction.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <description>Packages for players and authors of interactive
+    fiction</description>
+  </overlay>
+  <overlay contact="rmh3093@gmail.com" name="iwlwifi" src="http://opensvn.csie.org/rmh3093/iwlwifi" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://opensvn.csie.org/rmh3093/iwlwifi</link>
+    <description>This overlay provides ebuilds for the new wireless driver
+    iwlwifi</description>
+  </overlay>
+  <overlay contact="java@gentoo.org" name="java-overlay" src="svn://overlays.gentoo.org/proj/java/java-overlay/" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/java</link>
+    <description>The only java overlay available via layman. This overlays
+    contains ebuilds that are expected to work when you emerge them. The
+    ebuilds also need to use the generation 2 eclasses.</description>
+  </overlay>
+  <overlay contact="je_fro@gentoo.org" name="je_fro" src="svn://overlays.gentoo.org/dev/je_fro" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/dev/je_fro</link>
+    <description>Helpful ebuilds for the macbook pro, and experimental
+    gentoo-science packages.</description>
+  </overlay>
+  <overlay contact="jmbsvicetto@gentoo.org" name="jmbsvicetto" src="git://git.overlays.gentoo.org/dev/jmbsvicetto.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.overlays.gentoo.org/gitweb/?p=dev/jmbsvicetto.git</link>
+    <description>Jorge Manuel B. S. Vicetto developer overlay</description>
+  </overlay>
+  <overlay contact="jokey@gentoo.org" name="jokey" src="svn://overlays.gentoo.org/dev/jokey/trunk" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/dev/jokey</link>
+    <description>Jokey's Overlay - Contains pre-tree stuff like italc,
+    pkgcore-test-ebuilds and lcd stuff</description>
+  </overlay>
+  <overlay contact="mdeininger@jyujin.de" name="jyujin" src="git://git.jyujin.de/portage-overlay.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://jyujin.de/</link>
+    <description>eINIT, kyuuba, dev9, various splash daemons</description>
+  </overlay>
+  <overlay contact="kde@gentoo.org" name="kde-testing" src="git://git.overlays.gentoo.org/proj/kde.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://kde.gentoo.org</link>
+    <description>Official KDE team's testing overlay.</description>
+  </overlay>
+  <overlay contact="kde@gentoo.org" name="kde3" src="git://git.overlays.gentoo.org/proj/kde-sunset.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://kde.gentoo.org</link>
+    <description>Official KDE team's KDE3 sunset overlay.</description>
+  </overlay>
+  <overlay contact="mueli@gentoo.org" name="kerberos" src="git://git.overlays.gentoo.org/proj/kerberos.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://dev.gentoo.org/~mueli</link>
+    <description>Overlay which provides the bleeding edge on the kerberos
+    integration in gentoo.</description>
+  </overlay>
+  <overlay contact="wrobel@gentoo.org" name="kolab" src="svn://overlays.gentoo.org/proj/kolab/overlay" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://www.gentoo.org/proj/en/kolab/index.xml</link>
+    <description>Project to allow running Kolab on Gentoo.</description>
+  </overlay>
+  <overlay contact="dang@gentoo.org;cardoe@gentoo.org" name="kvm" src="git://github.com/dang/kvm.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <description>Kernel Virtual Machine userspace support</description>
+  </overlay>
+  <overlay contact="leio@gentoo.org" name="leio" src="git://git.overlays.gentoo.org/dev/leio.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.overlays.gentoo.org/gitweb/?p=dev/leio.git</link>
+    <description>Mart Raudsepp developer overlay</description>
+  </overlay>
+  <overlay contact="fosstux@gmail.com" name="lila-theme" src="http://svn.berlios.de/svnroot/repos/lila-theme/trunk/lila/gentoo/overlay" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://www.lila-center.info</link>
+    <description>The Lila theme is a community project, originally created by
+    Daniel G. Taylor and members of the Gentoo Linux community. The theme is
+    based around SVG graphics - which means they can be scaled to any size
+    without loss of quality - and is meant to be usable across different
+    desktops and platforms. For more information about the Lila theme project
+    or to see how you could get involved, there are a few places to look: The
+    Lila theme forums #lila on chat.freenode.org</description>
+  </overlay>
+  <overlay contact="liquidx@gentoo.org" name="liquidx" src="svn://overlays.gentoo.org/dev/liquidx" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org</link>
+    <description>Development overlay for ebuilds that I plan to commit to the
+    tree that are sourced from bugzilla or liquidx.</description>
+  </overlay>
+  <overlay contact="gentoo-lisp@gentoo.org" name="lisp" src="git://repo.or.cz/gentoo-lisp-overlay.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://repo.or.cz/w/gentoo-lisp-overlay.git</link>
+    <description>Common Lisp/Scheme development, recruitment and live overlay.
+    Support and feedback in `#gentoo-lisp' and via
+    `gentoo-lisp@gentoo.org'.</description>
+  </overlay>
+  <overlay contact="loki_val@gentoo.org" name="loki_val" src="git://git.overlays.gentoo.org/dev/loki_val" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>
+    http://git.overlays.gentoo.org/gitweb/?p=dev/loki_val.git;a=summary</link>
+    <description>Peter Alfredsen's private developer overlay</description>
+  </overlay>
+  <overlay contact="r0bertz@gentoo.org" name="loongson" src="git://www.gentoo-cn.org/var/git/loongson.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://www.gentoo-cn.org/gitweb/?p=loongson.git;a=summary</link>
+    <description>Zhang Le's loongson overlay</description>
+  </overlay>
+  <overlay contact="lordvan@gentoo.org" name="lordvan" src="git://git.overlays.gentoo.org/dev/lordvan.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://www.lordvan.com</link>
+    <description>LordVan's project ebuilds</description>
+  </overlay>
+  <overlay contact="dberkholz@gentoo.org" name="ltsp" src="git://git.overlays.gentoo.org/proj/ltsp.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.overlays.gentoo.org/gitweb/?p=proj/ltsp.git;a=summary</link>
+    <description>Linux Terminal Server Project overlay</description>
+  </overlay>
+  <overlay contact="lu_zero@gentoo.org" name="lu_zero" src="svn://overlays.gentoo.org/dev/lu_zero" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/dev/lu_zero</link>
+    <description>Experimental Media and PowerPC/CELL related
+    ebuilds.</description>
+  </overlay>
+  <overlay contact="luke_armagetron@dashjr.org" name="luke-jr" src="svn://svn.dashjr.org/luke-portage-overlay/trunk" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://luke.dashjr.org</link>
+    <description>Misc ebuilds by Luke-Jr</description>
+  </overlay>
+  <overlay contact="yngwin@gentoo.org" name="lxde" src="http://bitbucket.org/yngwin/lxde-overlay/" status="official" type="mercurial">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://www.gentoo.org/proj/en/desktop/lxde/</link>
+    <description>Repo for development of ebuilds for the LXDE desktop
+    environment.</description>
+  </overlay>
+  <overlay contact="m68k@gentoo.org" name="m68k" src="git://git.overlays.gentoo.org/proj/m68k.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.overlays.gentoo.org/gitweb/?p=proj/m68k.git</link>
+    <description>m68k team overlay</description>
+  </overlay>
+  <overlay contact="maekke@gentoo.org" name="maekke" src="git://git.overlays.gentoo.org/dev/maekke.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.overlays.gentoo.org/gitweb/?p=dev/maekke.git</link>
+    <description>Markus Meier developer overlay</description>
+  </overlay>
+  <overlay contact="ricardo.salveti@openbossa.org" name="mamona" src="http://rsalveti.net/git/projects/mamona-overlay/" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://dev.openbossa.org/trac/mamona/wiki/MamonaGentooOverlay</link>
+    <description>Mamona is an embedded Linux distribution, based on Open
+    Embedded, for ARM EABI.</description>
+  </overlay>
+  <overlay contact="marineam@gentoo.org" name="marineam-xen" src="svn://overlays.gentoo.org/dev/marineam/xen" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/dev/marineam</link>
+    <description>Experimental ebuilds for Xen.</description>
+  </overlay>
+  <overlay contact="matsuu@gentoo.org" name="matsuu" src="git://git.overlays.gentoo.org/dev/matsuu.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.overlays.gentoo.org/gitweb/?p=dev/matsuu.git</link>
+    <description>MATSUU Takuto developer overlay</description>
+  </overlay>
+  <overlay contact="mozilla@gentoo.org" name="mozilla" src="git://git.overlays.gentoo.org/proj/mozilla.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.overlays.gentoo.org/gitweb/?p=proj/mozilla.git</link>
+    <description>New mozilla development that is not yet in tree</description>
+  </overlay>
+  <overlay contact="avuton@gmail.com" name="mpd" src="git://repo.or.cz/mpd.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>
+    http://mpd.wikia.com/wiki/Repositories#Experimental_Gentoo_Overlay</link>
+    <description>The experimental gentoo overlay was designed as a way to keep
+    up-to-date. Most of it are live ebuilds, ebuilds that pull the latest HEAD
+    from whatever repository. It also includes ebuilds for clients that are not
+    yet in portage. It is maintained by avuton, send new ebuilds, corrections
+    or bugs directly to him.</description>
+  </overlay>
+  <overlay contact="mrpouet@gentoo.org" name="mrpouet" src="git://git.overlays.gentoo.org/dev/mrpouet.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.overlays.gentoo.org/gitweb/?p=dev/mrpouet.git</link>
+    <description>Romain Perier developer overlay</description>
+  </overlay>
+  <overlay contact="multilib@gentoo.org" name="multilib" src="git://github.com/sjnewbury/multilib-overlay.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://github.com/sjnewbury/multilib-overlay</link>
+    <description>multilib-overlay: emul-linux-x86 must die ;)</description>
+  </overlay>
+  <overlay contact="media-video@gentoo.org" name="multimedia" src="git://gitorious.org/gentoo-multimedia/gentoo-multimedia.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://gitorious.org/gentoo-multimedia</link>
+    <description>Repository for development of (mostly bleeding-edge)
+		multimedia packages for Gentoo Linux. This is the official overlay
+		for Gentoo's media herds.</description>
+  </overlay>
+  <overlay contact="Mario-Fetka@gmx.at" name="n4g" src="http://mars.arge.at/svn/n4g/trunk/novell4gentoo" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://n4g.mars.arge.at</link>
+    <description>The goal for this overlay is to reproduce the Open Enterprise
+    server from novell on gentoo</description>
+  </overlay>
+  <overlay contact="Mario-Fetka@gmx.at" name="n4g-experimental" src="http://mars.arge.at/svn/n4g/branches/experimental" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://n4g.mars.arge.at</link>
+    <description>The goal for this overlay is to reproduce the Open Enterprise
+    server from novell on gentoo</description>
+  </overlay>
+  <overlay contact="luke_n8x0_overlay@dashjr.org" name="n8x0" src="git://slonopotamus.org/overlay" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://slonopotamus.org/gentoo-on-n8x0</link>
+    <description>Packages to support Nokia Internet Tablets
+    (N8x0)</description>
+  </overlay>
+  <overlay contact="nirbheek@gentoo.org" name="nirbheek" src="git://git.overlays.gentoo.org/dev/nirbheek.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.overlays.gentoo.org/gitweb/?p=dev/nirbheek.git</link>
+    <description>Nirbheek Chauhan developer overlay</description>
+  </overlay>
+  <overlay contact="gentoo-overlay@njw.me.uk" name="njw" src="http://git.njw.me.uk/njw-gentoo-local.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.njw.me.uk/cgit/cgit.cgi/njw-gentoo-local/</link>
+    <description>Gentoo overlay of Nick White (njw)</description>
+  </overlay>
+  <overlay contact="nx@gentoo.org" name="nx" src="svn://overlays.gentoo.org/proj/nx/testing" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/nx</link>
+    <description>Overlay for the NX/FreeNX packages for Gentoo.</description>
+  </overlay>
+  <overlay contact="OdinsHorse@googlemail.com" name="openmoko" src="svn://overlays.gentoo.org/proj/embedded/openmoko" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/embedded/wiki/openmoko</link>
+    <description>Openmoko's project overlay.</description>
+  </overlay>
+  <overlay contact="h.mth@web.de" name="openoffice-geki" src="http://geki.ath.cx/hacks/overlay.tar.bz2" status="unofficial" type="tar">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://geki.ath.cx/index.php/OpenOffice</link>
+    <description>Purpose Unsupported openoffice version with experimental
+    patchset</description>
+  </overlay>
+  <overlay contact="roy@marples.name" name="openrc" src="git://git.overlays.gentoo.org/dev/uberlord" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>
+    http://git.overlays.gentoo.org/gitweb/?p=dev/uberlord;a=summary</link>
+    <description>Uberlord's openrc ebuilds</description>
+  </overlay>
+  <overlay contact="majeru@gentoo.ro" name="oss-overlay" src="http://hg.atheme.org/users/majeru/portage-overlay/" status="unofficial" type="mercurial">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://gentoo-wiki.com/Howto_OSS4</link>
+    <description>OSSv4 overlay</description>
+  </overlay>
+  <overlay contact="fabian@datensalat.eu" name="otih" src="git://repo.or.cz/otih-overlay.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://repo.or.cz/w/otih-overlay.git</link>
+    <description>Otih's Provide-Patches Overlay</description>
+  </overlay>
+  <overlay contact="pchrist@gentoo.org" name="pchrist" src="git://git.overlays.gentoo.org/dev/pchrist.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.overlays.gentoo.org/gitweb/?p=dev/pchrist.git</link>
+    <description>Panagiotis Christopoulos developer overlay</description>
+  </overlay>
+  <overlay contact="gabrielmaculus@gmail.com" name="pcsx2" src="git://github.com/eatnumber1/pcsx2-overlay.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://github.com/eatnumber1/pcsx2-overlay/tree/master</link>
+    <description>Experimental overlay for pcsx2 ebuilds.</description>
+  </overlay>
+  <overlay contact="mescalinum@gmail.com" name="pd-overlay" src="https://pd-overlay.svn.sourceforge.net/svnroot/pd-overlay/pd-overlay" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://pd-overlay.sourceforge.net/</link>
+    <description>Subversion ebuilds for PureData the dataflow
+    language</description>
+  </overlay>
+  <overlay contact="alexxy@gentoo.ru" name="pda" src="git://vcs.gentoo.ru/gentoo-pda" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://pda.gentoo.ru</link>
+    <description>This overlay contains some pda-related ebuilds (for now for
+    devices such as iPAQ hx4700, Sharp Zaurus, Asus a620 and some
+    others)</description>
+  </overlay>
+  <overlay contact="zerochaos@pentoo.ch" name="pentoo" src="https://www.pentoo.ch/svn/portage/trunk/" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://www.pentoo.ch</link>
+    <description>The overlay contains new or updated security tool.</description>
+  </overlay>
+  <overlay contact="perl@gentoo.org" name="perl-experimental" src="git://git.overlays.gentoo.org/proj/perl-overlay.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/perl/</link>
+    <description>Experimental ebuilds for Perl packages in Gentoo. Comments and
+    bugreports are welcome!</description>
+  </overlay>
+  <overlay contact="php-bugs@gentoo.org" name="php-4" src="svn://overlays.gentoo.org/proj/php/php4" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/php</link>
+    <description>Contains a copy of everything dev-lang/php-4*-related, which
+    can no longer be kept in the official tree for security
+    reasons.</description>
+  </overlay>
+  <overlay contact="php-bugs@gentoo.org" name="php-experimental" src="svn://overlays.gentoo.org/proj/php/experimental" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/php</link>
+    <description>Development overlay for PHP, experimental
+    branch.</description>
+  </overlay>
+  <overlay contact="php-bugs@gentoo.org" name="php-testing" src="svn://overlays.gentoo.org/proj/php/testing" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/php</link>
+    <description>Development overlay for PHP, testing branch.</description>
+  </overlay>
+  <overlay contact="pioto@pioto.org" name="pioto-overlay" src="git://git.pioto.org/pioto-overlay.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://blog.pioto.org</link>
+    <description>Most things in here are still works in progress or not stable
+    enough for the main ebuild tree. If something breaks, you're on your
+    own.</description>
+  </overlay>
+  <overlay contact="anant@gentoo.org" name="plan9" src="svn://overlays.gentoo.org/dev/anant/plan9" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/dev/anant/wiki</link>
+    <description>A collection of useful ebuilds related to Plan9.</description>
+  </overlay>
+  <overlay contact="pgsql-bugs@gentoo.org" name="postgresql-experimental" src="svn://overlays.gentoo.org/proj/postgresql/experimental" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/postgresql</link>
+    <description>Development overlay for PostgreSQL, experimental
+    branch.</description>
+  </overlay>
+  <overlay contact="pgsql-bugs@gentoo.org" name="postgresql-testing" src="svn://overlays.gentoo.org/proj/postgresql/testing" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/postgresql</link>
+    <description>Development overlay for PostgreSQL, testing
+    branch.</description>
+  </overlay>
+  <overlay contact="ranger@gentoo.org" name="powerpc" src="svn://overlays.gentoo.org/proj/powerpc" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/powerpc</link>
+    <description>Support for PowerPC-based ebuilds that are not appropriate for
+    the portage tree.</description>
+  </overlay>
+  <overlay contact="evermind@tuxfamily.org" name="pro-audio" src="svn://svn.tuxfamily.org/svnroot/proaudio/proaudio/trunk/overlays/proaudio" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://proaudio.tuxfamily.org/wiki</link>
+    <description>Evermind's overlay with ebuilds for a lot of pro-audio
+    production software.</description>
+  </overlay>
+  <overlay contact="sebastian@pipping.org" name="pure-funtoo" src="git://git.goodpoint.de/pure-funtoo.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.goodpoint.de/?p=pure-funtoo.git;a=summary</link>
+    <description>Gentoo overlay with Funtoo-only ebuilds extracted from Funtoo tree</description>
+  </overlay>
+  <overlay contact="python@gentoo.org" name="python" src="svn://overlays.gentoo.org/proj/python/overlays/python" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/python/wiki</link>
+    <description>Python overlay.</description>
+  </overlay>
+  <overlay contact="pythonhead@gentoo.org" name="pythonhead" src="svn://overlays.gentoo.org/dev/pythonhead" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org</link>
+    <description>Mostly Python-related ebuilds.</description>
+  </overlay>
+  <overlay contact="yngwin@gentoo.org" name="qting-edge" src="git://github.com/gentoo-qt/qting-edge.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://github.com/gentoo-qt/qting-edge/</link>
+    <description>Experimental Qt4 ebuilds and related packages, provided by
+    Gentoo's Qt team. The overlay contains ebuilds for official pre-releases,
+    and live ebuilds for both the official Nokia Qt Software git repository and
+    KDE's qt-copy subversion repository. It also has various (non-KDE) packages
+    that use Qt4.</description>
+  </overlay>
+  <overlay contact="ramereth@gentoo.org" name="ramereth" src="git://github.com/ramereth/ramereth-overlay.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://github.com/ramereth/ramereth-overlay/tree/master</link>
+    <description>Ramereth developer overlay</description>
+  </overlay>
+  <overlay contact="mahatma@eu.by" name="raw" src="http://raw.googlecode.com/svn/trunk" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://code.google.com/p/raw/</link>
+    <description>some raw stuff</description>
+  </overlay>
+  <overlay contact="rbu@gentoo.org" name="rbu" src="svn://overlays.gentoo.org/dev/rbu/overlay" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/dev/rbu/wiki</link>
+    <description>Random stuff.</description>
+  </overlay>
+  <overlay contact="remi@gentoo.org" name="remi" src="git://git.overlays.gentoo.org/dev/remi.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.overlays.gentoo.org/gitweb/?p=dev/remi.git</link>
+    <description>Remi Cardona developer overlay</description>
+  </overlay>
+  <overlay contact="rion4ik@gmail.com" name="rion" src="http://rion-overlay.googlecode.com/hg/" status="unofficial" type="mercurial">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://code.google.com/p/rion-overlay/</link>
+    <description>Russian overlay with a some patched and specific
+    software</description>
+  </overlay>
+  <overlay contact="lazy_bum@o2.pl" name="roslin" src="rsync://roslin.mlodyinteligent.pl/roslin" status="unofficial" type="rsync">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://roslin.mlodyinteligent.pl/</link>
+    <description>This is roslin, my small overlay. Enjoy! (:</description>
+  </overlay>
+  <overlay contact="oleg.kluchkin@gmail.com" name="rostov" src="http://svn.os-rostov.ru/repos/overlay" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://os-rostov.ru/</link>
+    <description>Repo for development of ebuilds.</description>
+  </overlay>
+  <overlay contact="rox@gentoo.org" name="rox" src="svn://overlays.gentoo.org/proj/rox/trunk/overlay/" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/rox</link>
+    <description>Experimental ebuilds for the Rox Desktop.</description>
+  </overlay>
+  <overlay contact="ruby@gentoo.org" name="ruby" src="svn://overlays.gentoo.org/proj/ruby" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/ruby/wiki</link>
+    <description>Experimental ebuilds from the Ruby edge.</description>
+  </overlay>
+  <overlay contact="sven.eckelmann@gmx.de" name="s3d" src="git://gitorious.org/s3d-gentoo/s3d-gentoo.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://s3d.berlios.de/</link>
+    <description>Gentoo ebuilds for s3d and related packages. s3d is a 3d
+    network display server which can be used as 3d desktop
+    enviroment.</description>
+  </overlay>
+  <overlay contact="lxnay@sabayonlinux.org" name="sabayon" src="git://sabayon.org/projects/overlay.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://sabayonlinux.org</link>
+    <description>Purpose To provide ebuilds that were created from the Sabayon
+    Linux project such as customized programs, ebuilds not in the official
+    portage, artwork, themes, etc. Bugs to
+    http://bugs.sabayonlinux.org/bugs/</description>
+  </overlay>
+  <overlay contact="scarabeus@gentoo.org" name="scarabeus" src="git://git.overlays.gentoo.org/dev/scarabeus.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.overlays.gentoo.org/gitweb/?p=dev/scarabeus.git</link>
+    <description>Tomas Chvatal developer overlay</description>
+  </overlay>
+  <overlay contact="sci@gentoo.org" name="science" src="git://git.overlays.gentoo.org/proj/sci.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/science/wiki/en</link>
+    <description>The Gentoo Science Overlay is intended as a place to work
+    outside of the main portage tree on experimental ebuilds. Our aim is to
+    increase the rate of development of scientific packages for Gentoo, but
+    ebuilds in this repository are by their very nature more experimental. If
+    you wish to use them you should be willing to help test and report
+    bugs.</description>
+  </overlay>
+  <overlay contact="matsuu@gentoo.org" name="secondlife" src="svn://overlays.gentoo.org/dev/matsuu/secondlife/" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/dev/matsuu/</link>
+    <description>Matsuu's Second Life Overlay</description>
+  </overlay>
+  <overlay contact="seemant@gentoo.org" name="seemant" src="svn://overlays.gentoo.org/dev/seemant" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/dev/seemant</link>
+    <description>Seemant's development overlay for django and other
+    things.</description>
+  </overlay>
+  <overlay contact="serkan@gentoo.org" name="serkan-overlay" src="http://bazaar.launchpad.net/~serkan-kaba/serkan-overlay/mainline" status="official" type="bzr">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://dev.gentoo.org/~serkan</link>
+    <description>Serkan Kaba's (serkan) private developer overlay</description>
+  </overlay>
+  <overlay contact="msl@calivia.com" name="sipx" src="http://scm.calivia.com/svn/sipx/gentoo" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://scm.calivia.com/svn/sipx/gentoo</link>
+    <description>This repository contains sipx and related
+    ebuilds.</description>
+  </overlay>
+  <overlay contact="l.valerimanera@gmail.com" name="soor-overlay" src="git://repo.or.cz/gentoo-soor-overlay.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <description>Gentoo ebuild overlay with misc stuff that I find
+    interesting.</description>
+  </overlay>
+  <overlay contact="sping@gentoo.org" name="sping" src="git://git.goodpoint.de/overlay-sping.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.goodpoint.de/?p=overlay-sping.git;a=summary</link>
+    <description>Gentoo overlay of Sebastian Pipping</description>
+  </overlay>
+  <overlay contact="steev@gentoo.org" name="steev" src="git://github.com/steev/steev-overlay.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://github.com/steev/steev-overlay/tree/master</link>
+    <description>Steev Klimaszewski's Overlay (more speed)</description>
+  </overlay>
+  <overlay contact="steev@gentoo.org" name="steev-stable" src="git://git.overlays.gentoo.org/dev/steev.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.overlays.gentoo.org/gitweb/?p=dev/steev.git;a=summary</link>
+    <description>Steev Klimaszewski's Overlay (tested better)</description>
+  </overlay>
+  <overlay contact="alsroot@member.fsf.org" name="sugar" src="git://git.overlays.gentoo.org/proj/sugar.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://sugarlabs.org/go/Community/Distributions/Gentoo</link>
+    <description>Sugar (sugarlabs.org) related packages</description>
+  </overlay>
+  <overlay contact="suka@gentoo.org" name="suka" src="svn://overlays.gentoo.org/dev/suka" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/dev/suka</link>
+    <description>experimental stuff of all sorts</description>
+  </overlay>
+  <overlay contact="sunrise@gentoo.org" name="sunrise" src="svn://overlays.gentoo.org/proj/sunrise/reviewed/" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/sunrise</link>
+    <description>Ebuilds for bugs assigned to maintainer-wanted</description>
+  </overlay>
+  <overlay contact="swegener@gentoo.org" name="swegener" src="rsync://rsync.gentoo.stealer.net/swegener-overlay/" status="official" type="rsync">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://dev.gentoo.org/~swegener/</link>
+    <description>This overlay contains some experimental stuff, but mostly
+    stuff I quickly wrote an ebuild for or grabed it from bugzilla and did not
+    have the time to commit it to the official tree or do not consider it ready
+    for it.</description>
+  </overlay>
+  <overlay contact="tante@the-gay-bar.com" name="tante" src="git://gitorious.org/tante_overlay/mainline.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://gitorious.org/projects/tante_overlay/repos/mainline</link>
+    <description>Overlay of tante</description>
+  </overlay>
+  <overlay contact="mescalinum@gentoo.org" name="tcl-8.6" src="svn://overlays.gentoo.org/dev/mescalinum/tcl-8.6" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>https://overlays.gentoo.org/dev/mescalinum</link>
+    <description>Tcl/Tk 8.8, Itcl/Itk 4 (beta) and other fixed
+    packages</description>
+  </overlay>
+  <overlay contact="mescalinum@gentoo.org" name="tcl-multislot" src="svn://overlays.gentoo.org/dev/mescalinum/tcl-multislot" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>https://overlays.gentoo.org/dev/mescalinum</link>
+    <description>Tcl/Tk multi-slot system, with tcltk eselect module for
+    switching across multiple versions (actually: 8.4 8.5 8.6)</description>
+  </overlay>
+  <overlay contact="rmh3093@gmail.com" name="THE" src="git://zen-sources.org/zen/THE.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <description>Miscellaneous ebuilds not yet in portage</description>
+  </overlay>
+  <overlay contact="mavrinac@gmail.com" name="thousand-parsec" src="git://git.thousandparsec.net/git/gentoo-overlay.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://www.mavrinac.com/index.cgi?page=tp</link>
+    <description>Overlay for the Thousand Parsec framework for turn-based space
+    empire building games.</description>
+  </overlay>
+  <overlay contact="toolchain@gentoo.org" name="toolchain" src="svn://overlays.gentoo.org/proj/toolchain" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/toolchain/wiki</link>
+    <description>Toolchain ebuilds that are unsuitable for the tree. Snapshots,
+    unstable versions, etc...</description>
+  </overlay>
+  <overlay contact="trapni@gentoo.org" name="trapni" src="svn://overlays.gentoo.org/dev/trapni/overlay" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/dev/trapni/</link>
+    <description>trapni's private developer overlay (mostly covering
+    YaCS/server related ebuilds for now)</description>
+  </overlay>
+  <overlay contact="gentoo-overlay@digital-trauma.de" name="trauma" src="http://svn.digital-trauma.de/gentoo/trunk/" status="unofficial" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://svn.digital-trauma.de/gentoo/</link>
+    <description>This overlay has a binary, current version of eclipse with
+    many plugins and some small new ebuilds from trauma and
+    bugzilla.g.o.</description>
+  </overlay>
+  <overlay contact="cedric.krier@b2ck.com" name="tryton" src="http://www.tryton.org/hg/tryton-overlay/" status="unofficial" type="mercurial">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://www.tryton.org/</link>
+    <description>Tryton</description>
+  </overlay>
+  <overlay contact="sping@gentoo.org" name="turbogears2" src="git://git.overlays.gentoo.org/proj/turbogears2.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.overlays.gentoo.org/gitweb/?p=proj/turbogears2.git;a=summary</link>
+    <description>TurboGears 2.x-related ebuilds</description>
+  </overlay>
+  <overlay contact="f@ub0r.de" name="ub0rlay" src="git://repo.or.cz/ub0rlay.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://repo.or.cz/w/ub0rlay.git</link>
+    <description>This is an ub0r overlay!</description>
+  </overlay>
+  <overlay contact="vdr@gentoo.org" name="vdr-devel" src="svn://overlays.gentoo.org/proj/vdr/vdr-devel" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/vdr</link>
+    <description>Overlay for VDR, that contains ebuilds for development version
+    of VDR, and specific plugins for that version.</description>
+  </overlay>
+  <overlay contact="vdr@gentoo.org" name="vdr-experimental" src="svn://overlays.gentoo.org/proj/vdr/experimental" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/vdr</link>
+    <description>Development overlay for VDR, experimental branch. WARNING:
+    This branch can kill your VDR! Only use it if you know what you are doing.
+    It is best to stay in touch with the developers if you would like to try
+    this out. We are available in #gentoo-vdr on Freenode.</description>
+  </overlay>
+  <overlay contact="vdr@gentoo.org" name="vdr-testing" src="svn://overlays.gentoo.org/proj/vdr/testing" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/vdr</link>
+    <description>Development overlay for VDR, testing branch.</description>
+  </overlay>
+  <overlay contact="vdr@gentoo.org" name="vdr-xine" src="svn://overlays.gentoo.org/proj/vdr/vdr-xine-overlay" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/vdr</link>
+    <description>Overlay for VDR, that contains ebuilds for the vdr-xine output
+    plugin, and the needed patched xine-lib</description>
+  </overlay>
+  <overlay contact="netcelli@verlihub-project.org" name="verlihub" src="git://verlihub.git.sourceforge.net/gitroot/verlihub/overlay" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://www.verlihub-project.org</link>
+    <description>Verlihub is a Direct Connect protocol server runs on Linux OS
+    written in C++; Many features are available: MySQL database, very low use
+    of CPU, RAM and Bandwidth, deflood integrated protection,
+    plugins</description>
+  </overlay>
+  <overlay contact="vmware@gentoo.org" name="vmware" src="svn://overlays.gentoo.org/proj/vmware/trunk" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://bugs.gentoo.org/show_bug.cgi?id=122500</link>
+    <description>Testing ground for vmware-server and vmware-server-console
+    ebuilds until they can eventually be committed into portage.</description>
+  </overlay>
+  <overlay contact="voip@gentoo.org" name="voip" src="svn://overlays.gentoo.org/proj/voip/trunk" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://svn.netdomination.org/gentoo-voip</link>
+    <description>Voice over IP related ebuilds.</description>
+  </overlay>
+  <overlay contact="voyageur@gentoo.org" name="voyageur" src="https://cafarelli.fr/svn/voyageur-overlay" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>
+    http://cafarelli.fr/websvn/listing.php?repname=voyageur-overlay</link>
+    <description>Voyageur's random ebuilds stuff</description>
+  </overlay>
+  <overlay contact="vserver-devs@gentoo.org" name="vps" src="svn://overlays.gentoo.org/proj/vps" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/vps</link>
+    <description>Gentoo VPS project overlay (experimental
+    ebuilds)</description>
+  </overlay>
+  <overlay contact="web-apps@gentoo.org" name="webapps-experimental" src="svn://overlays.gentoo.org/proj/webapps/experimental" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org</link>
+    <description>This is the home of Gentoo's wider collection of ebuilds for
+    web-based applications. This is where we collect all the ebuilds submitted
+    to Bugzilla by our users, and make them available in an easy-to-use overlay
+    for wider testing.</description>
+  </overlay>
+  <overlay contact="wired@gentoo.org" name="wirelay" src="git://github.com/wired/wirelay.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://dev.gentoo.org/~wired/</link>
+    <description>wired's testing grounds and bleeding edge
+    ebuilds</description>
+  </overlay>
+  <overlay contact="wolf31o2@wolf31o2.org" name="wolf31o2" src="git://git.wolf31o2.org/overlays/wolf31o2.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://www.wolf31o2.org</link>
+    <description>Wolf31o2's project ebuilds</description>
+  </overlay>
+  <overlay contact="wrobel@gentoo.org" name="wrobel" src="svn://overlays.gentoo.org/dev/wrobel/stable" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org</link>
+    <description>A collection of stable ebuilds from Gunnar Wrobel
+    [wrobel@gentoo.org].</description>
+  </overlay>
+  <overlay contact="wschlich@gentoo.org" name="wschlich" src="svn://overlays.gentoo.org/dev/wschlich/stable" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org</link>
+    <description>A collection of stable ebuilds from Wolfram Schlich
+    [wschlich@gentoo.org].</description>
+  </overlay>
+  <overlay contact="wschlich@gentoo.org" name="wschlich-testing" src="svn://overlays.gentoo.org/dev/wschlich/testing" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org</link>
+    <description>A collection of testing ebuilds from Wolfram Schlich
+    [wschlich@gentoo.org].</description>
+  </overlay>
+  <overlay contact="x11@gentoo.org" name="x11" src="git://git.overlays.gentoo.org/proj/x11" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://www.gentoo.org/proj/en/desktop/x/x11/</link>
+    <description>Gentoo X11 team overlay</description>
+  </overlay>
+  <overlay contact="xemacs@gentoo.org" name="xemacs" src="svn://overlays.gentoo.org/proj/emacs/xemacs-overlay" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/emacs/</link>
+    <description>Provide XEmacs related ebuilds which are a bit experimental or
+    work-in-progress. Don't rely on them, but don't hesitate to file bugs or
+    write emails.</description>
+  </overlay>
+  <overlay contact="xen@gentoo.org" name="xen" src="svn://overlays.gentoo.org/proj/xen/overlay" status="official" type="svn">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/xen</link>
+    <description>Experimental ebuilds for Xen.</description>
+  </overlay>
+  <overlay contact="xfce@gentoo.org" name="xfce-dev" src="git://git.overlays.gentoo.org/proj/xfce.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://overlays.gentoo.org/proj/xfce/wiki</link>
+    <description>Experimental ebuilds for the Xfce4 Desktop
+    Environment</description>
+  </overlay>
+  <overlay contact="sebastian@pipping.org" name="xmms-zombie" src="git://git.goodpoint.de/overlay-xmms-zombie.git" status="unofficial" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://git.goodpoint.de/?p=overlay-xmms-zombie.git;a=summary</link>
+    <description>Overlay with XMMS-1 related zombiebuilds</description>
+  </overlay>
+  <overlay contact="casta@xwing.info" name="xwing" src="rsync://gentoo.xwing.info/xwing-overlay" status="unofficial" type="rsync">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://gentoo.xwing.info</link>
+    <description>This overlay contains some experimental stuff, such as
+    turboprint printers driver (bug #61311), intel-536ep driver for lastest 2.6
+    kernels (bug #127464), lastest grisbi version (proxy maintainer) before
+    it's portage integration and so on.</description>
+  </overlay>
+  <overlay contact="hwoarang@gentoo.org" name="zen-sources" src="git://github.com/hwoarang/zen-sources.git" status="official" type="git">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <description>Experimental overlay for zen-sources related packages.</description>
+  </overlay>
+  <overlay contact="ycarus@zugaina.org" name="zugaina" src="rsync://gentoo.zugaina.org/zugaina-portage" status="unofficial" type="rsync">
+    <!-- THIS FILE IS GENERATED, PLEASE EDIT repositories.xml INSTEAD. -->
+    <link>http://gentoo.zugaina.org/</link>
+    <description>collection of ebuilds by ycarus</description>
+  </overlay>
+</layman>

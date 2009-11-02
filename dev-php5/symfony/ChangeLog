@@ -1,0 +1,73 @@
+# ChangeLog for dev-php5/symfony
+# Copyright 1999-2008 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-php5/symfony/ChangeLog,v 1.10 2008/12/03 17:48:51 wrobel Exp $
+
+*symfony-1.2.0 (03 Dec 2008)
+
+  03 Dec 2008; Gunnar Wrobel <wrobel@gentoo.org> metadata.xml,
+  +symfony-1.2.0.ebuild:
+  Added dev-php5/symfony-1.2.0 (#248663).
+
+  02 Oct 2008; wrobel@gentoo.org metadata.xml:
+  Fixed metadata.
+
+*symfony-1.1.1 (10 Sep 2008)
+*symfony-1.0.17 (10 Sep 2008)
+
+  10 Sep 2008; wrobel@gentoo.org +symfony-1.0.17.ebuild,
+  +symfony-1.1.1.ebuild:
+  Added symfony-1.0.17 and symfony-1.1.1.
+
+*symfony-1.0.16 (31 Jul 2008)
+
+  31 Jul 2008; wrobel@gentoo.org metadata.xml, -symfony-1.0.9.ebuild,
+  -symfony-1.0.10.ebuild, -symfony-1.0.11.ebuild, +symfony-1.0.16.ebuild:
+  Bumped to symfony-1.0.16 in response to sec issue #222943. Moved to webapps
+  herd. Removed vulnerable versions.
+
+*symfony-1.0.11 (11 Feb 2008)
+
+  11 Feb 2008; Raúl Porcel <armin76@gentoo.org> +symfony-1.0.11.ebuild:
+  Version bump, from the php overlay
+
+*symfony-1.0.10 (24 Dec 2007)
+
+  24 Dec 2007; Raúl Porcel <armin76@gentoo.org> +symfony-1.0.10.ebuild:
+  Version bump from the php-overlay
+
+  21 Dec 2007; Jakub Moc <jakub@gentoo.org> +symfony-1.0.10.ebuild:
+  Version bump
+
+*symfony-1.0.9 (06 Dec 2007)
+
+  06 Dec 2007; Markus Ullmann <jokey@gentoo.org> -symfony-1.0.8.ebuild,
+  +symfony-1.0.9.ebuild:
+  LICENSE fix from project overlay and version bump
+
+  30 Nov 2007; Jakub Moc <jakub@gentoo.org> +symfony-1.0.9.ebuild:
+  Version bump
+
+*symfony-1.0.8 (28 Oct 2007)
+
+  28 Oct 2007; Markus Ullmann <jokey@gentoo.org> -symfony-1.0.6.ebuild,
+  -symfony-1.0.7.ebuild, +symfony-1.0.8.ebuild:
+  Version bump from php project overlay
+
+  27 Oct 2007; Jakub Moc <jakub@gentoo.org> +symfony-1.0.8.ebuild:
+  Version bump
+
+*symfony-1.0.7 (08 Oct 2007)
+
+  08 Oct 2007; Anant Narayanan <anant@gentoo.org> +symfony-1.0.7.ebuild:
+  bump to 1.0.7
+
+*symfony-1.0.6 (30 Aug 2007)
+
+  30 Aug 2007; Markus Ullmann <jokey@gentoo.org> +metadata.xml,
+  +symfony-1.0.6.ebuild:
+  Port from project overlay
+
+  30 Aug 2007; Jakub Moc <jakub@gentoo.org> +metadata.xml,
+  +symfony-1.0.6.ebuild:
+  New ebuild, Bug 186152
+
