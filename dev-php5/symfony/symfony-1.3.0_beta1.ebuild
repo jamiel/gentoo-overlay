@@ -5,7 +5,7 @@
 inherit php-pear-lib-r1 depend.php versionator
 
 KEYWORDS="~amd64 ~x86"
-MY_PV=$(delete_version_separator '_' `echo ${P} | tr beta BETA`) 
+MY_PV=$(delete_version_separator '_' ${P/beta/BETA})
 
 DESCRIPTION="Open-source PHP5 professional web framework."
 HOMEPAGE="http://www.symfony-project.com/"
