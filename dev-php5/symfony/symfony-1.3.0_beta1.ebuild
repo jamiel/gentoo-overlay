@@ -15,8 +15,6 @@ LICENSE="MIT LGPL-2.1 BSD BSD-2 FDL-1.2"
 SLOT="0"
 IUSE=""
 
-DEPEND="${DEPEND} >=dev-lang/php-5.2.4"
-
 need_php_by_category
 
 pkg_setup() {
