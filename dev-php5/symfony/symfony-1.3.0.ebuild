@@ -5,12 +5,10 @@
 inherit php-pear-lib-r1 depend.php versionator
 
 KEYWORDS="~amd64 ~x86"
-MY_PV=$(delete_version_separator '_' ${P/rc/RC})
 
 DESCRIPTION="Open-source PHP5 professional web framework."
 HOMEPAGE="http://www.symfony-project.com/"
-SRC_URI="http://pear.symfony-project.com/get/${MY_PV}.tgz"
-S=${WORKDIR}/${MY_PV}
+SRC_URI="http://pear.symfony-project.com/get/symfony-${PV}.tgz"
 LICENSE="MIT LGPL-2.1 BSD BSD-2 FDL-1.2"
 SLOT="0"
 IUSE=""
