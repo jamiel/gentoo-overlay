@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~x86"
 IUSE=""
 
-DEPEND="app-misc/sphinx[client]"
+DEPEND="dev-libs/libsphinxclient"
 RDEPEND=""
 
