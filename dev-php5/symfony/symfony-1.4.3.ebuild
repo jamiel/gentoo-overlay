@@ -13,6 +13,8 @@ LICENSE="MIT LGPL-2.1 BSD BSD-2 FDL-1.2"
 SLOT="0"
 IUSE=""
 
+DEPEND="dev-php/pear"
+
 need_php_by_category
 
 pkg_setup() {
