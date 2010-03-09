@@ -14,9 +14,8 @@ SRC_URI="http://sphinxsearch.com/downloads/${MY_P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="client debug id64 mysql postgres stemmer test"
+IUSE=""
 
-RDEPEND=""
 DEPEND=""
 
 S=${WORKDIR}/${MY_P}/api/libsphinxclient
@@ -26,7 +25,7 @@ src_prepare() {
 }
 
 src_configure() {
-	bash buildconf.sh
+	bash buildconf.sh 
 	econf 
 }
 
