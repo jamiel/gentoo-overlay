@@ -21,9 +21,7 @@ DEPEND=""
 
 S=${WORKDIR}/${MY_P}/api/libsphinxclient
 
-src_unpack() {
-	unpack ${MY_P}.tar.gz	
-	cd "${S}"
+src_prepare() {
 	epatch "${FILESDIR}/${PV}/01_all_sphinxclient_static_decl.patch"
 }
 
