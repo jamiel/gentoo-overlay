@@ -4,17 +4,20 @@
 
 inherit versionator
 
+EAPI="2"
+
 RDS_VERSION=$(get_version_component_range 1-2)
 RDS_PATCHLEVEL=$(get_version_component_range 3)
 
+MY_PV=${RDS_VERSION}.${RDS_PATCHLEVEL}
 MY_PN=RDSCli
 
 DESCRIPTION="Command line tools for Amazon's RDS Services"
 HOMEPAGE="http://aws.amazon.com"
 #SRC_URI="http://s3.amazonaws.com/rds-downloads/${MY_PN}-${RDS_VERSION}.${RDS_PATCHLEVEL}.zip"
-SRC_URI="http://s3.amazonaws.com/rds-downloads/${MY_PN}.zip"
+SRC_URI="http://s3.amazonaws.com/rds-downloads/${MY_PN}.zip -> ${MY_PN}-${MY_PV}.zip"
 
-S=${WORKDIR}/${MY_PN}-${RDS_VERSION}.${RDS_PATCHLEVEL}
+S=${WORKDIR}/${MY_PN}-${MY_PV}
 
 LICENSE="Amazon"
 SLOT="0"
@@ -27,8 +30,8 @@ app-arch/unzip"
 RDEPEND=""
 
 src_unpack() {
-	unpack ${A}
-	cd "${WORKDIR}/${MY_PN}-${RDS_VERSION}.${RDS_PATCHLEVEL}"
+	default
+	cd "${WORKDIR}/${MY_PN}-${MY_PV}"
 	find . -name *.cmd -exec rm {} \;
 }
 
@@ -60,5 +63,5 @@ pkg_postinst() {
 
 	einfo ""
 	einfo "To set your AWS credentials edit:"
-	einfo "/opt/${MY_PN}-${RDS_VERSION}.${RDS_PATCHLEVEL}/etc/credential-file-path.template"
+	einfo "/opt/${PN}/etc/credential-file-path.template"
 }
