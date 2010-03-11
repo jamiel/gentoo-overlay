@@ -1,12 +1,13 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
+
+EAPI="2"
 
 PHP_EXT_NAME="sphinx"
 PHP_EXT_INI="yes"
 PHP_EXT_ZENDEXT="no"
 DOCS="README ChangeLog"
-EAPI="2"
 
 inherit php-ext-pecl-r1
 
@@ -19,5 +20,3 @@ KEYWORDS="~x86"
 IUSE=""
 
 DEPEND="dev-libs/libsphinxclient"
-RDEPEND=""
-
