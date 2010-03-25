@@ -17,7 +17,10 @@ HOMEPAGE="http://pecl.php.net/package/xhprof"
 LICENSE="PHP"
 SLOT="0"
 KEYWORDS="~x86"
-IUSE="web"
+IUSE="ui"
+
+DEPEND=""
+RDEPEND="ui? ( || ( virtual/httpd-cgi virtual/httpd-fastcgi ) )"
 
 S=${WORKDIR}/${PECL_PKG_V}/extension
 
@@ -31,7 +34,9 @@ src_prepare() {
 src_install() {
 	php-ext-source-r1_src_install
 
-	php-ext-base-r1_addtoinifiles "xhprof.output_dir" '"/tmp/xhprof"'
+	php-ext-base-r1_addtoinifiles "xhprof.output_dir" '"/var/tmp/xhprof"'
+
+	dodir /var/tmp/xhprof
 
 	if use web; then
 		insinto /var/www/localhost/htdocs/${PHP_EXT_NAME}	
