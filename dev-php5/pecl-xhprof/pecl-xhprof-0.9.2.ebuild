@@ -21,6 +21,13 @@ IUSE="web"
 
 S=${WORKDIR}/${PECL_PKG_V}/extension
 
+need_php
+
+src_prepare() {
+	cd ${S}/..
+	epatch ${FILESDIR}/${PV}/01_include_path.patch
+}
+
 src_install() {
 	php-ext-source-r1_src_install
 
@@ -29,5 +36,7 @@ src_install() {
 	if use web; then
 		insinto /var/www/localhost/htdocs/${PHP_EXT_NAME}	
 		doins -r ${WORKDIR}/${PECL_PKG_V}/xhprof_html/*
+		insinto /usr/share/${PHP_SHARED_CAT}/${PHP_EXT_NAME}
+		doins -r ${WORKDIR}/${PECL_PKG_V}/xhprof_lib/*
 	fi
 }
