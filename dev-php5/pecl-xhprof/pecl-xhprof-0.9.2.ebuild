@@ -7,7 +7,7 @@ EAPI="2"
 PHP_EXT_NAME="xhprof"
 PHP_EXT_INI="yes"
 PHP_EXT_ZENDEXT="no"
-DOCS="README ChangeLog LICENSE CREDITS"
+DOCS="README ChangeLog LICENSE"
 
 inherit php-ext-pecl-r1
 
