@@ -38,7 +38,7 @@ src_install() {
 
 	dodir /var/tmp/xhprof
 
-	if use web; then
+	if use ui; then
 		insinto /var/www/localhost/htdocs/${PHP_EXT_NAME}	
 		doins -r ${WORKDIR}/${PECL_PKG_V}/xhprof_html/*
 		insinto /usr/share/${PHP_SHARED_CAT}/${PHP_EXT_NAME}
