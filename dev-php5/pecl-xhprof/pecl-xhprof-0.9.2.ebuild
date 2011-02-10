@@ -9,12 +9,12 @@ PHP_EXT_INI="yes"
 PHP_EXT_ZENDEXT="no"
 DOCS="README ChangeLog LICENSE"
 
-inherit php-ext-pecl-r1
+inherit php-ext-pecl-r2
 
 DESCRIPTION="PHP extension to profile applications"
 HOMEPAGE="http://pecl.php.net/package/xhprof"
 
-LICENSE="PHP"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~x86"
 IUSE="examples ui"
@@ -23,20 +23,22 @@ DEPEND=""
 RDEPEND="ui? ( || ( virtual/httpd-cgi virtual/httpd-fastcgi ) )"
 
 S=${WORKDIR}/${PECL_PKG_V}/extension
+PHP_EXT_S=${S}
 DOCSDIR=${WORKDIR}/${PECL_PKG_V}
 
-need_php
-
 src_prepare() {
+
+	php-ext-source-r2_src_prepare
+
 	cd ${S}/..
 	epatch ${FILESDIR}/${PV}/01_include_path.patch
 }
 
 src_install() {
 
-	php-ext-pecl-r1_src_install
+	php-ext-pecl-r2_src_install
 
-	php-ext-base-r1_addtoinifiles "xhprof.output_dir" '"/var/tmp/xhprof"'
+	php-ext-source-r2_addtoinifiles "xhprof.output_dir" '"/var/tmp/xhprof"'
 
 	dodir /var/tmp/xhprof
 
