@@ -22,12 +22,11 @@ LICENSE="BSD-2 MIT"
 SLOT="0"
 IUSE=""
 
-
 DEPEND=">=net-misc/curl-7.19.4
 	sys-libs/zlib
 	dev-libs/libevent
 	|| ( <dev-lang/php-5.3[spl] >=dev-lang/php-5.3 )
-	dev-lang/php[hash,session,iconv]
+	>=dev-lang/php-5[hash,session,iconv]
 	"
 RDEPEND="${DEPEND}"
 
