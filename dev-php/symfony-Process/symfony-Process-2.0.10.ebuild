@@ -5,13 +5,13 @@
 EAPI="4"
 
 PEAR_PV="2.0.10"
-PHP_PEAR_PKG_NAME="Console"
+PHP_PEAR_PKG_NAME="Process"
 
 inherit php-pear-r1
 
-DESCRIPTION="Symfony2 Console Component"
-HOMEPAGE="pear.symfony.com"
-SRC_URI="http://pear.symfony.com/get/Console-2.0.10.tgz"
+DESCRIPTION="Symfony2 Process Component"
+HOMEPAGE="http://pear.symfony.com"
+SRC_URI="http://pear.symfony.com/get/Process-2.0.10.tgz"
 
 LICENSE="MIT"
 SLOT="0"

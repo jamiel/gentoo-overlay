@@ -5,13 +5,13 @@
 EAPI="4"
 
 PEAR_PV="2.0.10"
-PHP_PEAR_PKG_NAME="Finder"
+PHP_PEAR_PKG_NAME="Translation"
 
 inherit php-pear-r1
 
-DESCRIPTION="Symfony2 Finder Component"
-HOMEPAGE=""
-SRC_URI="http://pear.symfony.com/get/Finder-2.0.10.tgz"
+DESCRIPTION="Symfony2 Translation Component"
+HOMEPAGE="http://pear.symfony.com"
+SRC_URI="http://pear.symfony.com/get/Translation-2.0.10.tgz"
 
 LICENSE="MIT"
 SLOT="0"
