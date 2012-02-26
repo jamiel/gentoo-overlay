@@ -4,14 +4,14 @@
 
 EAPI="4"
 
-PEAR_PV="2.0.10"
-PHP_PEAR_PKG_NAME="CssSelector"
+PEAR_PV="2.0.11"
+PHP_PEAR_PKG_NAME="Validator"
 
 inherit php-pear-r1
 
-DESCRIPTION="Symfony2 CssSelector Component"
+DESCRIPTION="Symfony2 Validator Component"
 HOMEPAGE="http://pear.symfony.com"
-SRC_URI="http://pear.symfony.com/get/CssSelector-2.0.10.tgz"
+SRC_URI="http://pear.symfony.com/get/Validator-2.0.11.tgz"
 
 LICENSE="MIT"
 SLOT="0"

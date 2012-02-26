@@ -4,14 +4,14 @@
 
 EAPI="4"
 
-PEAR_PV="2.0.10"
-PHP_PEAR_PKG_NAME="MonologBridge"
+PEAR_PV="2.0.11"
+PHP_PEAR_PKG_NAME="Routing"
 
 inherit php-pear-r1
 
-DESCRIPTION="Symfony2 Monolog Bridge"
+DESCRIPTION="Symfony2 Routing Component"
 HOMEPAGE="http://pear.symfony.com"
-SRC_URI="http://pear.symfony.com/get/MonologBridge-2.0.10.tgz"
+SRC_URI="http://pear.symfony.com/get/Routing-2.0.11.tgz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -19,6 +19,5 @@ KEYWORDS="~x86"
 IUSE=""
 
 DEPEND=">=dev-lang/php-5.3.2
-	>=dev-php/PEAR-PEAR-1.4.0
-	dev-php/symfony-HttpKernel"
+	>=dev-php/PEAR-PEAR-1.4.0"
 RDEPEND="${DEPEND}"

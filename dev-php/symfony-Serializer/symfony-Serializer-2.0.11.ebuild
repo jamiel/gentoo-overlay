@@ -4,14 +4,14 @@
 
 EAPI="4"
 
-PEAR_PV="2.0.10"
-PHP_PEAR_PKG_NAME="HttpKernel"
+PEAR_PV="2.0.11"
+PHP_PEAR_PKG_NAME="Serializer"
 
 inherit php-pear-r1
 
-DESCRIPTION="Symfony2 HttpKernel Component"
+DESCRIPTION="Symfony2 Serializer Component"
 HOMEPAGE="http://pear.symfony.com"
-SRC_URI="http://pear.symfony.com/get/HttpKernel-2.0.10.tgz"
+SRC_URI="http://pear.symfony.com/get/Serializer-2.0.11.tgz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -19,7 +19,5 @@ KEYWORDS="~x86"
 IUSE=""
 
 DEPEND=">=dev-lang/php-5.3.2
-	>=dev-php/PEAR-PEAR-1.4.0
-	dev-php/symfony-HttpFoundation
-	dev-php/symfony-EventDispatcher"
+	>=dev-php/PEAR-PEAR-1.4.0"
 RDEPEND="${DEPEND}"

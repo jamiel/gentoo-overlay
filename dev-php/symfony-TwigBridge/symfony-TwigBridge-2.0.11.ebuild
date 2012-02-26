@@ -4,14 +4,14 @@
 
 EAPI="4"
 
-PEAR_PV="2.0.10"
-PHP_PEAR_PKG_NAME="Templating"
+PEAR_PV="2.0.11"
+PHP_PEAR_PKG_NAME="TwigBridge"
 
 inherit php-pear-r1
 
-DESCRIPTION="Symfony2 Templating Component"
+DESCRIPTION="Symfony2 Twig Bridge"
 HOMEPAGE="http://pear.symfony.com"
-SRC_URI="http://pear.symfony.com/get/Templating-2.0.10.tgz"
+SRC_URI="http://pear.symfony.com/get/TwigBridge-2.0.11.tgz"
 
 LICENSE="MIT"
 SLOT="0"

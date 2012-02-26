@@ -4,14 +4,14 @@
 
 EAPI="4"
 
-PEAR_PV="2.0.10"
-PHP_PEAR_PKG_NAME="Console"
+PEAR_PV="2.0.11"
+PHP_PEAR_PKG_NAME="HttpFoundation"
 
 inherit php-pear-r1
 
-DESCRIPTION="Symfony2 Console Component"
+DESCRIPTION="Symfony2 HttpFoundation Component"
 HOMEPAGE="http://pear.symfony.com"
-SRC_URI="http://pear.symfony.com/get/Console-2.0.10.tgz"
+SRC_URI="http://pear.symfony.com/get/HttpFoundation-2.0.11.tgz"
 
 LICENSE="MIT"
 SLOT="0"

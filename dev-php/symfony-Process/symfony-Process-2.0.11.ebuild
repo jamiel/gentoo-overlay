@@ -4,14 +4,14 @@
 
 EAPI="4"
 
-PEAR_PV="2.0.10"
-PHP_PEAR_PKG_NAME="Routing"
+PEAR_PV="2.0.11"
+PHP_PEAR_PKG_NAME="Process"
 
 inherit php-pear-r1
 
-DESCRIPTION="Symfony2 Routing Component"
+DESCRIPTION="Symfony2 Process Component"
 HOMEPAGE="http://pear.symfony.com"
-SRC_URI="http://pear.symfony.com/get/Routing-2.0.10.tgz"
+SRC_URI="http://pear.symfony.com/get/Process-2.0.11.tgz"
 
 LICENSE="MIT"
 SLOT="0"

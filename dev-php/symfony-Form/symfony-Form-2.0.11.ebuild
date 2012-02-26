@@ -4,14 +4,14 @@
 
 EAPI="4"
 
-PEAR_PV="2.0.10"
-PHP_PEAR_PKG_NAME="EventDispatcher"
+PEAR_PV="2.0.11"
+PHP_PEAR_PKG_NAME="Form"
 
 inherit php-pear-r1
 
-DESCRIPTION="Symfony2 EventDispatcher Component"
+DESCRIPTION="Symfony2 Form Component"
 HOMEPAGE="http://pear.symfony.com"
-SRC_URI="http://pear.symfony.com/get/EventDispatcher-2.0.10.tgz"
+SRC_URI="http://pear.symfony.com/get/Form-2.0.11.tgz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -19,5 +19,8 @@ KEYWORDS="~x86"
 IUSE=""
 
 DEPEND=">=dev-lang/php-5.3.2
-	>=dev-php/PEAR-PEAR-1.4.0"
+	>=dev-php/PEAR-PEAR-1.4.0
+	dev-php/symfony-EventDispatcher
+	dev-php/symfony-Validator
+	dev-php/symfony-Locale"
 RDEPEND="${DEPEND}"

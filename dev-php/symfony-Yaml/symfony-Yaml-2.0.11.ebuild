@@ -4,14 +4,14 @@
 
 EAPI="4"
 
-PEAR_PV="2.0.10"
-PHP_PEAR_PKG_NAME="BrowserKit"
+PEAR_PV="2.0.11"
+PHP_PEAR_PKG_NAME="Yaml"
 
 inherit php-pear-r1
 
-DESCRIPTION="Symfony2 BrowserKit Component"
+DESCRIPTION="Symfony2 Yaml Component"
 HOMEPAGE="http://pear.symfony.com"
-SRC_URI="http://pear.symfony.com/get/BrowserKit-2.0.10.tgz"
+SRC_URI="http://pear.symfony.com/get/Yaml-2.0.11.tgz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -19,6 +19,5 @@ KEYWORDS="~x86"
 IUSE=""
 
 DEPEND=">=dev-lang/php-5.3.2
-	>=dev-php/PEAR-PEAR-1.4.0
-	dev-php/symfony-DomCrawler"
+	>=dev-php/PEAR-PEAR-1.4.0"
 RDEPEND="${DEPEND}"
