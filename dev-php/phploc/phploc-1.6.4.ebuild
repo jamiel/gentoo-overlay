@@ -5,7 +5,7 @@
 EAPI="3"
 PHP_PEAR_CHANNEL="${FILESDIR}/channel.xml"
 PHP_PEAR_PN="phploc"
-PHP_PEAR_URI="pear.phpunit.de"
+
 inherit php-pear-lib-r1
 
 DESCRIPTION="A tool for quickly measuring the size of a PHP project"
