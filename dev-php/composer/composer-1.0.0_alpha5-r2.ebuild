@@ -26,10 +26,6 @@ src_unpack() {
 	S=${WORKDIR}
 }
 
-pkg_config() {
-	wget http://getcomposer.org/installer | /usr/bin/php
-}
-
 src_install() {
 	mv "${WORKDIR}/${A}" "${WORKDIR}/composer"
 	dobin composer
