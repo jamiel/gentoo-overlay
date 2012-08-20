@@ -11,7 +11,7 @@ HOMEPAGE="http://getcomposer.org"
 
 MY_PV=$(replace_version_separator _ -)
 
-SRC_URI="http://getcomposer.org/download/1.0.0-alpha5/composer.phar -> ${PN}-${MY_PV}.phar"
+SRC_URI="http://getcomposer.org/download/${MY_PV}/composer.phar -> ${PN}-${MY_PV}.phar"
 
 LICENSE="MIT"
 SLOT="0"
