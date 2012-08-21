@@ -4,14 +4,14 @@
 
 EAPI="4"
 
-PEAR_PV="2.0.11"
-PHP_PEAR_PKG_NAME="EventDispatcher"
+PEAR_PV="2.1.0RC1"
+PHP_PEAR_PKG_NAME="Serializer"
 
 inherit php-pear-r1
 
-DESCRIPTION="Symfony2 EventDispatcher Component"
+DESCRIPTION="Symfony2 Serializer Component"
 HOMEPAGE="http://pear.symfony.com"
-SRC_URI="http://pear.symfony.com/get/EventDispatcher-2.0.11.tgz"
+SRC_URI="http://pear.symfony.com/get/Serializer-2.1.0RC1.tgz"
 
 LICENSE="MIT"
 SLOT="0"

@@ -4,14 +4,14 @@
 
 EAPI="4"
 
-PEAR_PV="2.0.11"
-PHP_PEAR_PKG_NAME="Serializer"
+PEAR_PV="2.1.0RC1"
+PHP_PEAR_PKG_NAME="Form"
 
 inherit php-pear-r1
 
-DESCRIPTION="Symfony2 Serializer Component"
+DESCRIPTION="Symfony2 Form Component"
 HOMEPAGE="http://pear.symfony.com"
-SRC_URI="http://pear.symfony.com/get/Serializer-2.0.11.tgz"
+SRC_URI="http://pear.symfony.com/get/Form-2.1.0RC1.tgz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -19,5 +19,8 @@ KEYWORDS="~x86"
 IUSE=""
 
 DEPEND=">=dev-lang/php-5.3.2
-	>=dev-php/PEAR-PEAR-1.4.0"
+	>=dev-php/PEAR-PEAR-1.4.0
+	dev-php/symfony-EventDispatcher
+	dev-php/symfony-Validator
+	dev-php/symfony-Locale"
 RDEPEND="${DEPEND}"

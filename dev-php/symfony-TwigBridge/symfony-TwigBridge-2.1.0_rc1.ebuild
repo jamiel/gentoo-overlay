@@ -4,14 +4,14 @@
 
 EAPI="4"
 
-PEAR_PV="2.0.11"
+PEAR_PV="2.1.0RC1"
 PHP_PEAR_PKG_NAME="TwigBridge"
 
 inherit php-pear-r1
 
 DESCRIPTION="Symfony2 Twig Bridge"
 HOMEPAGE="http://pear.symfony.com"
-SRC_URI="http://pear.symfony.com/get/TwigBridge-2.0.11.tgz"
+SRC_URI="http://pear.symfony.com/get/TwigBridge-2.1.0RC1.tgz"
 
 LICENSE="MIT"
 SLOT="0"
