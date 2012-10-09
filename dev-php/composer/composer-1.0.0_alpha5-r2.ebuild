@@ -19,7 +19,7 @@ KEYWORDS="~x86 ~amd64"
 IUSE=""
 
 DEPEND=">=dev-lang/php-5.3.0"
-RDEPEND=""
+RDEPEND="dev-lang/php[zip]"
 
 src_unpack() {
 	mv "${DISTDIR}/${A}" "${WORKDIR}"
