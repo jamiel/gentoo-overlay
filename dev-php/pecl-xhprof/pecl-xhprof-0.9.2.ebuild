@@ -1,13 +1,15 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI="4"
 
 PHP_EXT_NAME="xhprof"
 PHP_EXT_INI="yes"
 PHP_EXT_ZENDEXT="no"
 DOCS="README ChangeLog LICENSE"
+
+USE_PHP="php5-3"
 
 inherit php-ext-pecl-r2
 
@@ -16,7 +18,7 @@ HOMEPAGE="http://pecl.php.net/package/xhprof"
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~x86"
+KEYWORDS="~x86 ~amd64"
 IUSE="examples ui"
 
 DEPEND=""
@@ -40,8 +42,8 @@ src_install() {
 
 	php-ext-source-r2_addtoinifiles "xhprof.output_dir" '"/var/tmp/xhprof"'
 
-	dodir /var/tmp/xhprof
-
+	mkdir -m 0777 /var/tmp/xhprof
+	
 	if use ui; then
 		insinto /var/www/localhost/htdocs/${PHP_EXT_NAME}	
 		doins -r ${WORKDIR}/${PECL_PKG_V}/xhprof_html/*
