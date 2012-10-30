@@ -18,7 +18,7 @@ SLOT="0"
 KEYWORDS="~x86 ~amd64"
 IUSE=""
 
-DEPEND=">=dev-lang/php-5.3.0"
+DEPEND=">=dev-lang/php-5.3.4"
 RDEPEND="dev-lang/php[zip]"
 
 src_unpack() {
