@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<layman>
-  <overlay contact="jrlearmonth@gmail.com" name="jamiel-gentoo-overlay" src="git://github.com/jamiel/gentoo-overlay.git" status="alpha" type="git">
-    <link>http://github.com/jamiel/gentoo-overlay</link>
-    <description>Jamie L's Gentoo Overlay</description>
-  </overlay>
-</layman>
