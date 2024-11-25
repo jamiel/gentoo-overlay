@@ -22,7 +22,7 @@ src_install() {
 	insinto /opt/${MY_PN}
 	doins -r ./opt/${MY_PN}/*
 	insinto /usr/share/icons
-    doins -r ./usr/share/icons/*
+	doins -r ./usr/share/icons/*
 	insinto /usr/share/applications
 	doins -r ./usr/share/applications/*
 	dosym -r /opt/${MY_PN}/@parsifydesktop /usr/bin/parsify
