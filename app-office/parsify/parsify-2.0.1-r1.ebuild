@@ -17,6 +17,7 @@ IUSE=""
 RDEPEND=""
 DEPEND="${RDEPEND}"
 BDEPEND="app-alternatives/gzip"
+LICENSE="all-rights-reserved"
 
 src_install() {
 	insinto /opt/${MY_PN}
