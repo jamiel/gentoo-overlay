@@ -3,14 +3,14 @@
 
 EAPI=8
 
-REVISION=b1
+REVISION=b8
 
 inherit desktop xdg
 
 DESCRIPTION="Firefox browser developer edition"
 HOMEPAGE="https://www.mozilla.org/en-US/firefox/developer/"
-SRC_URI="https://download-installer.cdn.mozilla.net/pub/devedition/releases/${PV}${REVISION}/linux-x86_64/en-US/firefox-${PV}${REVISION}.tar.bz2
-	-> ${P}-${REVISION}.tar.bz2"
+SRC_URI="https://download-installer.cdn.mozilla.net/pub/devedition/releases/${PV}${REVISION}/linux-x86_64/en-US/firefox-${PV}${REVISION}.tar.xz
+	-> ${P}-${REVISION}.tar.xz"
 S="${WORKDIR}"
 
 LICENSE="MPL-2.0 GPL-2 LGPL-2.1"
