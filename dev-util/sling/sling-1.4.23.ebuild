@@ -15,6 +15,9 @@ IUSE=""
 RDEPEND=""
 DEPEND="${RDEPEND}"
 LICENSE="GPL-3"
+PATCHES=(
+	"${FILESDIR}/${PN}-${PV}-go-mod.patch"
+)
 
 src_compile() {
 	ego build -o "${PN}" cmd/sling/*.go
