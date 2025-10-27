@@ -16,6 +16,8 @@ RDEPEND=""
 DEPEND="${RDEPEND}"
 LICENSE="GPL-3"
 
+BDEPEND=">=dev-lang/go-1.25.0"
+
 src_compile() {
 	ego build -o "${PN}" .
 }
