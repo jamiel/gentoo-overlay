@@ -1,0 +1,13 @@
+[Unit]
+Description=Figma Font Helper
+Documentation=https://github.com/Figma-Linux/figma-linux-font-helper
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/figma-font-helper
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,16 @@
+#!/sbin/openrc-run
+# Copyright 2024 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+description="Figma Font Helper - provides local fonts to Figma web app"
+
+command="/usr/bin/figma-font-helper"
+command_background="yes"
+pidfile="/run/${RC_SVCNAME}.pid"
+output_log="/var/log/${RC_SVCNAME}.log"
+error_log="/var/log/${RC_SVCNAME}.log"
+
+depend() {
+	need net
+	use logger
+}
