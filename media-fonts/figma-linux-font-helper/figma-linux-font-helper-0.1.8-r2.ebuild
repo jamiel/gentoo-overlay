@@ -136,6 +136,8 @@ BDEPEND="virtual/rust"
 
 PATCHES=(
 	"${FILESDIR}/${P}-protocol-v23.patch"
+	"${FILESDIR}/figma-local-font-dir.patch"
+	"${FILESDIR}/broken-pipe-crash.patch"
 )
 
 src_install() {

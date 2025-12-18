@@ -1,0 +1,16 @@
+diff --git a/src/config.rs b/src/config.rs
+index ffaed2c..c3275fa 100644
+--- a/src/config.rs
++++ b/src/config.rs
+@@ -61,7 +61,10 @@ impl Config {
+       host: "127.0.0.1".to_owned(),
+       port: "18412".to_owned(),
+       app: AppConfig {
+-        font_dirs: vec![String::from("/usr/share/fonts")],
++        font_dirs: vec![
++          String::from("/usr/share/fonts"),
++          String::from("/usr/local/share/fonts"),
++        ],
+       },
+     };
+ 
