@@ -132,7 +132,7 @@ RDEPEND="${DEPEND}
 	!systemd? ( sys-apps/openrc )
 	systemd? ( sys-apps/systemd )
 "
-BDEPEND="virtual/rust"
+BDEPEND="dev-lang/rust"
 
 PATCHES=(
 	"${FILESDIR}/${P}-protocol-v23.patch"
